@@ -1,0 +1,23 @@
+<div class="bg-gray-200 flex shadow-lg items-center max-w-2xl md:max-w-xl lg:max-w-6xl mx-auto px-5 justify-between">
+    <div>
+        <a routerLink="/">
+            <h1 class="text-center font-semibold my-10">Resume App</h1>
+        </a>
+    </div>
+    <div>
+        <div class="items-center flex justify-center space-x-3">
+            <a routerLink="/display">
+                <Button class="bg-green-500 text-xs px-2 py-2 rounded-full text-white font-semibold hover:bg-green-700">Display Resume</Button
+        >
+      </a>
+      <a routerLink="/edit">
+        <Button
+          class="bg-green-500 px-5 py-2 rounded-full text-white font-semibold hover:bg-green-700 text-xs"
+          >Edit Resume</Button
+        >
+      </a>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
